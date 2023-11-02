@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+
+user agent stylesheet
+html {
+    display: block;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #008080;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #Fb6f92;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li a {
+    float: right;
+  display: block;
+  color: #008080;
+  text-align: center;
+ padding: 14px 16px;
+  text-decoration: none;
+}
+
+ li a:hover:not(.active) {
+  background-color: #111;
+} 
+
+h1 {
+  color: #008080;
+  font-size: 100px;
+  padding-top: 57px;
+}
+
+h2 {
+  color: #Fb6f92;
+}
+
+p {
+color: #008080;
+background-color: #Fb6f92;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: #008080;
+}
+
+background {
+  background-color: #dcd3e2;
+}
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background:	#Fb6f92;
+    border-top: 4px solid #008080;
+    color: #008080;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
